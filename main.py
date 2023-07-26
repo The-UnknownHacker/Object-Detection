@@ -3,15 +3,15 @@ import numpy as np
 import time
 
 # Load the YOLO model
-config_file = "Real-Time Object Detection OpenCV Python Source Code/configuration/yolov3-tiny.cfg"
-weights_file = "Real-Time Object Detection OpenCV Python Source Code/weights/yolov3-tiny.weights"
+config_file = "Real-Time Object Detection OpenCV Python/configuration/yolov3-tiny.cfg" # You Have to Enter Your Own Path - I have supplied the files
+weights_file = "Real-Time Object Detection OpenCV Python /weights/yolov3-tiny.weights" # You Have to Enter Your Own Path - I have supplied the files
 net = cv2.dnn_DetectionModel(weights_file, config_file)
 net.setInputSize(416, 416)
 net.setInputScale(1.0/255)
 net.setInputSwapRB(True)
 
 classes = []
-with open("Real-Time Object Detection OpenCV Python Source Code/configuration/coco.names", "r") as f:
+with open("Real-Time Object Detection OpenCV Python/configuration/coco.names", "r") as f: # You Have to Enter Your Own Path - I have supplied the files
     classes = [line.strip() for line in f.readlines()]
 
 colors = np.random.uniform(0, 255, size=(len(classes), 3))
