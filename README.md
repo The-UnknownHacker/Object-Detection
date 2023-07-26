@@ -1,8 +1,13 @@
 Real-Time Object Detection using YOLOv3-tiny
-This project demonstrates real-time object detection using the YOLOv3-tiny model in OpenCV. The YOLO (You Only Look Once) model is an efficient and powerful deep learning model for object detection.
+This project demonstrates real-time object detection using the YOLOv3-tiny model in OpenCV. 
+The YOLO (You Only Look Once) model is an efficient and powerful deep-learning model for object detection.
 
 Dependencies
 Before running the project, ensure you have the following dependencies installed:
+
+Also Make sure that you change your path to the valid path of the config file
+
+You can find the path by - Right Clicking on the yolo-tiny.weights - (Or any file dependencies that I have Listd Below) and click copy path - Then Change the slashes from this \ to / and run the code
 
 
 OpenCV (cv2) library
@@ -18,8 +23,11 @@ Clone or download this repository to your local machine.
 Ensure you have the YOLOv3-tiny configuration file, weights file, and class labels file:
 
 Configuration file: Real-Time Object Detection OpenCV Python Source Code/configuration/yolov3-tiny.cfg
+
 Weights file: Real-Time Object Detection OpenCV Python Source Code/weights/yolov3-tiny.weights
+
 Class labels file: Real-Time Object Detection OpenCV Python Source Code/configuration/coco.names
+
 Connect your webcam or ensure you have a video source available.
 
 Running the Project
