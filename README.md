@@ -1,3 +1,7 @@
+
+#This Project is now deprecated you can still use it but I wont be updating it anymore after August 2023
+
+
 Real-Time Object Detection using YOLOv3-tiny
 This project demonstrates real-time object detection using the YOLOv3-tiny model in OpenCV. 
 The YOLO (You Only Look Once) model is an efficient and powerful deep-learning model for object detection.
