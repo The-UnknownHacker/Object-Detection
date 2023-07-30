@@ -1,5 +1,5 @@
 
-##This Project is now deprecated you can still use it but I wont be updating it anymore after August 2023
+## This Project is now deprecated you can still use it but I won't be updating it anymore after August 202
 
 
 Real-Time Object Detection using YOLOv3-tiny
